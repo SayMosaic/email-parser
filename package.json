@@ -1,0 +1,18 @@
+{
+  "name": "email-parser",
+  "version": "0.0.1",
+  "description": "Get rid of unwanted parts of email body, signatures etc.",
+  "main": "index.js",
+  "repository": "https://github.com/SayMosaic/email-parser",
+  "author": "Xuezheng Ma <xuezhma@gmail.com>",
+  "license": "Apache License 2.0",
+  "devDependencies": {
+    "eslint": "^4.11.0",
+    "mocha": "^4.0.1",
+    "nyc": "^11.3.0"
+  },
+  "scripts": {
+    "test": "nyc mocha",
+    "eslint": "eslint lib"
+  }
+}
